@@ -91,7 +91,7 @@ acronym {
 }
 
 body {
-    font-size: 0.14rem;
+    font-size: 14px;
     font-family: PingFangSC-Regular, sans-serif;
     color: #494949;
 }
@@ -107,23 +107,24 @@ a {
 nav {
     display: flex;
     align-items: center;
-    font-size: 0.15rem;
-    height: 0.65rem;
+    font-size: 15px;
+    height: 65px;
     background: #4a88d4;
+    /* background: black; */
 }
 
 nav a {
     display: block;
     text-align: center;
     width: 33.3333%;
-    line-height: 0.65rem;
+    line-height: 65px;
     text-transform: uppercase;
     color: #fff;
     font-family: Microsoft YaHei
 }
 
 main {
-    padding: 0.4rem 0.15rem;
+    padding: 4px 15px;
 }
 
 main section {
@@ -132,19 +133,20 @@ main section {
 }
 
 .about {
-    padding: 0.15rem 0.15rem 0.75rem;
+    padding: 15px 15px 75px;
+    /* background: black; */
 }
 
 .contact {
-    padding: 0.15rem 0.15rem 0.25rem;
+    padding: 15px 15px 25px;
 }
 
 main section::before {
     content: "";
     position: absolute;
-    height: 0.01rem;
+    height: 1px;
     background: #000;
-    top: 0.25rem;
+    top: 25px;
     left: 0;
     right: 0;
     z-index: 1;
@@ -152,27 +154,29 @@ main section::before {
 
 main section h4 {
     text-transform: uppercase;
-    font-size: 0.11rem;
+    font-size: 11px;
     color: #333;
     display: inline-block;
     margin: 0 auto;
     background: #fff;
     position: relative;
     z-index: 10;
-    padding: 0 0.12rem;
+    padding: 0 12px;
 }
 
 main section p {
     text-align: left;
-    font-size: 0.09rem;
-    line-height: 0.18rem;
+    font-size: 9px;
+    line-height: 28px;
+    /* border-top: 20px; */
+    padding-top: 30px;
 }
 
 .more {
     position: absolute;
-    bottom: 0.4rem;
-    left: 0.15rem;
-    font-size: 0.1rem;
+    bottom: 30px;
+    left: 15px;
+    font-size: 1px;
     color: #4a88d4;
 }
 
