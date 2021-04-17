@@ -1,0 +1,394 @@
+html {
+    color: #000;
+    background: #FFF;
+    font-size: 625%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+section,
+img,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+body {
+    font-size: 0.14rem;
+    font-family: Tahoma Helvetica, Arial, sans-serif;
+    color: #494949;
+}
+.flex1{
+    flex: 1;
+}
+a {
+    text-decoration: none;
+}
+.center{
+    text-align: center !important;
+}
+.wrap{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 350px;
+}
+.my{
+    padding-top: 400px;
+    height: 750px;
+}
+.my .left{
+    width: 644px;
+}
+.my .right{
+    flex: 1;
+    line-height: 1.6;
+}
+.avatar{
+    width: 115px;
+    margin-left: 200px;
+}
+
+.my p{
+    font-size: 18px;
+    
+}
+
+.work{
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+.work h3{
+    line-height: 100px;
+    font-size: 18px;
+}
+.work p{
+    color: #777777;
+}
+.work1 .right{
+    padding: 0 200px 0 60px;
+    line-height: 1.6;
+}
+.work1 .design{
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.work2 {
+    justify-content: flex-end;
+}
+.work2 .left{
+    width: 330px;
+    text-align: right;
+}
+
+.work2 .right{
+    padding:0 200px 0 60px;
+    text-align: right;
+}
+
+.work2 .right p{
+    text-align: center;
+    font-size: 13px;
+}
+.work3{
+    justify-content: flex-start;
+}
+.work3 .left{
+    text-align: left;
+    padding: 0 60px 0 200px;
+}
+
+.work3 .right{
+    line-height: 1.6;
+}
+
+.work3 h3{
+    padding-top: 30px;
+}
+
+
+.work4 .left{
+    flex: 1;
+    padding: 60px 150px 0 200px;
+    line-height: 1.6;
+}
+.contact{
+    /* padding: 100px 0;
+    height: auto; */
+    justify-content: flex-end;
+}
+.contact .right{
+    padding: 0 0 0 215px;
+}
+.contact .left{
+    width: 310px;
+    padding-top: 60px;
+    font-size: 18px;
+    text-align: right;
+}
+
+.contact  h3{
+    font-size: 18px;
+    color: #313131;
+    line-height: 60px;
+}
+
+.contact  h4{
+    font-size: 16px;
+    color: #777777;
+    line-height: 36px;
+}
+.contact li{
+    padding-left: 8px;
+}
+.contact  a{
+    font-size: 18px;
+    color: #000;
+    line-height: 36px;
+}
+.contact .email{
+    color: #777;
+}
+
+header{
+    height: 316px;
+}
+header .wrap{
+    position: relative;
+}
+.btn-back{
+    display: block;
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    width: 66px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: 2px solid #000;
+    border-radius: 36px;
+}
+
+.about section{
+    padding: 45px 190px;
+}
+.about section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 100px;
+}
+.about section h4{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: #131313;
+    line-height: 55px;
+}
+.about section p{
+    color: #777;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about section.left h4{
+    text-align: left;
+}
+
+.about section.left p{
+    text-align: left;
+}
+
+.about img{
+    margin-top: 30px;
+}
+
+.btn{
+    width: 98px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 36px;
+    color: #000;
+}
+.about footer{
+    padding-bottom: 100px;
+}
+.about footer section{
+    padding: 0;
+    display: block;
+    flex: none;
+    text-align: center;
+} 
+.about footer section p{
+    line-height: 66px;
+}
+.about footer section p a{
+    margin: 0 15px;
+}
+
+.work section{
+    display: block;
+    flex: none;
+    height: auto;
+}
+.work header section{
+    height: 100%;
+}
+.img-section{
+    padding: 50px 0;
+}
+
+.img-section p{
+    padding: 40px 190px;
+    line-height: 30px;
+}
+
+.img-section li{
+    line-height: 30px;
+    color: #777;
+}
+.img-section label{
+    color: #000;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.work section.detail{
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work section.detail h4{
+    line-height: 30px;
+    font-size: 18px;
+    color: #000;
+    width: 154px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.work section.detail > p{
+    flex: 1;
+    
+    padding: 0 205px 0 50px;
+    
+}
+.work section.detail p{
+    font-size: 16px;
+    color: #777;
+    line-height: 30px;
+}
+.work section.detail > div{
+    flex: 1;
+    padding: 0 205px 0 50px;
+}
+.work section.detail li{
+    font-size: 16px;
+    color: #777;
+    line-height: 30px;
+}
+
+.work section.detail .center{
+    text-align: center;
+    position: relative;
+}
+.work section.detail .center ul{
+    padding-left: 130px;
+}
+.work section.detail .center li{
+    text-align: left;
+}
+.arrow{
+    width: 100%;
+    height: 100px;
+    background: url(../img/arrow.png) no-repeat center;
+}
+
